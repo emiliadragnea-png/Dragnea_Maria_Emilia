@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Pinguiland</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div id="arriba"></div>
+
+    <header>
+        <h1>Contacta con Pinguiland</h1>
+        <p>¡Nos encanta recibir mensajes de otros amantes de los pingüinos!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Envíanos un mensaje</h2>
+
+            <p>
+                ¿Tienes alguna pregunta, curiosidad o sugerencia?
+                Rellena el siguiente formulario.
+            </p>
+
+            <form>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@email.com" required>
+
+                <label for="tema">¿Qué te interesa?</label>
+                <select id="tema" name="tema">
+                    <option value="especies">Especies de pingüinos</option>
+                    <option value="habitat">Su hábitat</option>
+                    <option value="alimentacion">Su alimentación</option>
+                    <option value="otro">Otro tema</option>
+                </select>
+
+                <label for="mensaje">Tu mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu mensaje..." required></textarea>
+
+                <div class="aceptar">
+                    <input type="checkbox" id="acepto" name="acepto" required>
+                    <label for="acepto">Acepto enviar este formulario.</label>
+                </div>
+
+                <button type="submit">Enviar mensaje 🐧</button>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Gracias por visitar Pinguiland</h2>
+            <p>Esperamos que hayas disfrutado aprendiendo sobre estos animales tan especiales.</p>
+            <a href="index.html">Volver a la página principal</a>
+        </section>
+
+    </main>
+
+    <p class="volver">
+       <a href="#arriba">⬆ Volver arriba</a>
+    </p>
+
+
+    <footer>
+        <p>© 2026 Pingüiland. Creado por Emilia Dragnea.</p>
+    </footer>
+
+</body>
+</html>

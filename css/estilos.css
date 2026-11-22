@@ -1,0 +1,402 @@
+/* Diseño general de la pagina */
+body {
+    background-color: #eaf6fa;
+    font-family: Arial, sans-serif;
+    color: #263746;
+    margin: 0;
+}
+
+/* Cabecera */
+header {
+    background-image: linear-gradient(rgba(36, 75, 99, 0.55), rgba(36, 75, 99, 0.55)), url("../img/img02.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navegación */
+nav {
+    background-color: #b9dce9;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Enlaces del menú */ 
+nav a {
+    color: #244b63;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* Efecto con el ratón sobre los enlaces del menú */
+nav a:hover {
+    color: white;
+    background-color: #467c98;
+}
+
+/* Contenido principal */
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Apartados contenido */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #b9dce9;
+}
+
+/* titulos */
+h2 {
+    color: #244b63;
+}
+
+/* Pie de página */
+footer {
+    background-color: #244b63;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Tamaño imagenes */
+img {
+    width: 250px;
+    border: 3px solid #b9dce9;
+    border-radius: 10px;
+}
+
+/* Mensaje especial */
+.mensaje-pinguino {
+    background-color: #d6edf5;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Texto destacado */
+.mensaje-pinguino span {
+    color: #467c98;
+    font-weight: bold;
+}
+
+/* Organización del contenido */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Bloques de la portada */
+.tarjetas {
+    text-align: center;
+}
+
+/* Cada tarjeta */
+.tarjeta {
+    background-color: #dceff6;
+    border: 1px solid #b9dce9;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Texto destacado */
+.destacado {
+    background-color: #dceff6;
+    border-left: 5px solid #467c98;
+    padding: 15px;
+}
+
+/* Enlaces dentro del contenido */
+main a {
+    color: #467c98;
+    font-weight: bold;
+}
+
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #244b63;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #b9dce9;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Listas */
+li {
+    margin: 8px;
+}
+
+/* Nota informativa */
+.nota {
+    color: #607987;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+/* Formulario de contacto */
+form {
+    background-color: #eaf6fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #b9dce9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Casilla de aceptación */
+.aceptar label {
+    display: inline;
+    font-weight: normal;
+}
+
+/* Botón de enviar */
+button {
+    background-color: #244b63;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Cuando pasamos el ratón por el botón */
+button:hover {
+    background-color: #467c98;
+}
+
+
+/* Mejoras generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Título de la cabecera */
+header h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+/* Menú de navegación */
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+/* Efecto del menú */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Apartados de la página */
+section {
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Títulos de los apartados */
+h2 {
+    border-bottom: 2px solid #dceff6;
+    padding-bottom: 8px;
+}
+
+/* Imagen de los pingüinos */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Tarjetas de la portada */
+.tarjeta {
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el ratón por las tarjetas */
+.tarjeta:hover {
+    background-color: #c8e5f0;
+    transform: scale(1.03);
+}
+
+/* Pie de página */
+footer {
+    margin-top: 30px;
+}
+
+/* Botones */
+button {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efecto del botón */
+button:hover {
+    transform: scale(1.03);
+}
+
+/* ASPECTO EN MÓVILES */
+
+/* Adaptación a móviles */
+@media screen and (max-width: 700px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px;
+    }
+
+    .tarjeta {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    main {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 35px 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Tarjetas de las especies */
+.especie {
+    background-color: #f4fbfe;
+    border-top: 5px solid #467c98;
+}
+
+/* Títulos de las tarjetas */
+.especie h3 {
+    color: #244b63;
+}
+
+/* Separación de las tarjetas */
+.especie p {
+    font-size: 15px;
+}
+
+
+/* Enlace para volver arriba */
+.volver {
+    text-align: center;
+    padding: 15px;
+}
+
+.volver a {
+    background-color: #b9dce9;
+    color: #244b63;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.volver a:hover {
+    background-color: #467c98;
+    color: white;
+}
+
+/* Espacio entre los campos del formulario */
+form input,
+form select,
+form textarea {
+    margin-bottom: 10px;
+}
+
+/* Al seleccionar un campo */
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border: 2px solid #467c98;
+    outline: none;
+}
+
+
+/* Color alterno en las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #eaf6fa;
+}
+
+/* Cuando pasamos el ratón por las filas */
+tr:hover {
+    background-color: #dceff6;
+}
+
+/* Desplazamiento suave en la página */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Elemento de inicio para el enlace volver arriba */
+#arriba {
+    height: 1px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Organización de las tarjetas de especies */
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Tamaño de las tarjetas */
+.especie {
+    width: 240px;
+    min-height: 180px;
+}
